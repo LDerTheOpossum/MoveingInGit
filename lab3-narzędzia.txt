@@ -1,0 +1,42 @@
+#1
+git commit
+git commit
+
+#2
+git checkout -b bugfix
+
+#3
+git checkout -b bugfix
+git commit
+git checkout main
+git commit
+git merge bugfix
+
+#4
+git checkout -b bugfix
+git commit
+git checkout main
+git commit
+git checkout bugfix
+git rebase main
+
+#5
+git checkout C4
+
+#6
+git checkout bugFix^
+
+#7
+git branch -f main c6
+git branch -f bugFix HEAD~2
+git checkout HEAD~1
+
+#8
+git checkout c2
+git revert pushed
+git branch -f pushed HEAD
+git branch -f local main
+
+#9
+
+
